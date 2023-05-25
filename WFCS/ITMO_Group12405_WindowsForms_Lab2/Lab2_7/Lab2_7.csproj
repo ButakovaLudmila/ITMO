@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{FF737D2E-F0F6-49E2-BE6A-A3BB526D8B0D}</ProjectGuid>
+    <ProjectGuid>{E20D9EA4-D9FB-4586-983A-26804D77E910}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>ITMO_Group12405_WindowsForms_Lab2.Lab2_1</RootNamespace>
-    <AssemblyName>Lab2_1</AssemblyName>
+    <RootNamespace>ITMO_Group12405_WindowsForms_Lab2.Lab2_7</RootNamespace>
+    <AssemblyName>Lab2_7</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ITMO_Group12405_WindowsForms_Lab2.Lab2_1.Properties {
+namespace ITMO_Group12405_WindowsForms_Lab2.Lab2_7.Properties {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace ITMO_Group12405_WindowsForms_Lab2.Lab2_1.Properties {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("ITMO_Group12405_WindowsForms_Lab2.Lab2_1.Properties.Resources", typeof(Resources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("ITMO_Group12405_WindowsForms_Lab2.Lab2_7.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
