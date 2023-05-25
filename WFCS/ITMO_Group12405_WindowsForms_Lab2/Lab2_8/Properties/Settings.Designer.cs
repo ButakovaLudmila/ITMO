@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ITMO_Group12405_WindowsForms_Lab2.Lab2_1.Properties {
+namespace ITMO_Group12405_WindowsForms_Lab2.Lab2_8.Properties {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]

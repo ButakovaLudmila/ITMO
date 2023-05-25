@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{FF737D2E-F0F6-49E2-BE6A-A3BB526D8B0D}</ProjectGuid>
+    <ProjectGuid>{354DB47C-92C4-4FE0-8BAB-5D8649F84B5C}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>ITMO_Group12405_WindowsForms_Lab2.Lab2_1</RootNamespace>
-    <AssemblyName>Lab2_1</AssemblyName>
+    <RootNamespace>ITMO_Group12405_WindowsForms_Lab2.Lab2_4</RootNamespace>
+    <AssemblyName>Lab1_4</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -54,6 +54,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SubForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubForm.Designer.cs">
+      <DependentUpon>SubForm.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -67,6 +73,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="SubForm.resx">
+      <DependentUpon>SubForm.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

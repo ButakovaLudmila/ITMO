@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{FF737D2E-F0F6-49E2-BE6A-A3BB526D8B0D}</ProjectGuid>
+    <ProjectGuid>{4EA0412F-D74F-41B0-B4E6-B6CC78AA0BBA}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>ITMO_Group12405_WindowsForms_Lab2.Lab2_1</RootNamespace>
-    <AssemblyName>Lab2_1</AssemblyName>
+    <RootNamespace>ITMO_Group12405_WindowsForms_Lab2.Lab2_6</RootNamespace>
+    <AssemblyName>Lab2_6</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -46,6 +46,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Book.cs" />
+    <Compile Include="Item.cs" />
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
