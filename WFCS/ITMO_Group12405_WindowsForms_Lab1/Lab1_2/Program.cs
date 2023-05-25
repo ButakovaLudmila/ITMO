@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Lab1_2
+namespace ITMO_Group12405_WindowsForms_Lab1.Lab1_2
 {
     internal static class Program
     {
@@ -16,7 +16,7 @@ namespace Lab1_2
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new Tringle());
         }
     }
 }
