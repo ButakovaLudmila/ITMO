@@ -4,9 +4,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.6.33717.318
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WFCS", "WFCS", "{40356ABD-D37D-486A-A34C-F2D0C3379DD4}"
-	ProjectSection(SolutionItems) = preProject
-		TextFile1.txt = TextFile1.txt
-	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ITMO_Group12405_WindowsForms_Lab1", "ITMO_Group12405_WindowsForms_Lab1", "{E588AEA0-1A70-449D-8BFB-E0F53B2A4934}"
 	ProjectSection(SolutionItems) = preProject
@@ -27,6 +24,9 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab1_5_2", "WFCS\ITMO_Group12405_WindowsForms_Lab1\Lab1_5_2\Lab1_5_2.csproj", "{1919D522-C5D5-4084-92B3-3E0961EFEBE0}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ITMO_Group12405_WindowsForms_Lab2", "ITMO_Group12405_WindowsForms_Lab2", "{4A4470B1-CD00-40ED-BC8B-83D709434A55}"
+	ProjectSection(SolutionItems) = preProject
+		WFCS\ITMO_Group12405_WindowsForms_Lab2\ITMO_Group12405_WindowsForms_Lab2.sln = WFCS\ITMO_Group12405_WindowsForms_Lab2\ITMO_Group12405_WindowsForms_Lab2.sln
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab2_1", "WFCS\ITMO_Group12405_WindowsForms_Lab2\Lab2_1\Lab2_1.csproj", "{FF737D2E-F0F6-49E2-BE6A-A3BB526D8B0D}"
 EndProject
@@ -49,6 +49,9 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WPFCS", "WPFCS", "{0AF8A661-8E05-47DC-BB98-9D493B823232}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ITMO_Group12405_WPF_Lab1", "ITMO_Group12405_WPF_Lab1", "{822486EB-C8B6-4242-BBA9-5FD32E71EEB6}"
+	ProjectSection(SolutionItems) = preProject
+		WPFCS\ITMO_Group12405_WPF_Lab1\ITMO_Group12405_WPF_Lab1.sln = WPFCS\ITMO_Group12405_WPF_Lab1\ITMO_Group12405_WPF_Lab1.sln
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfHelloNav.Lab1_2", "WPFCS\ITMO_Group12405_WPF_Lab1\Lab1_2\WpfHelloNav.Lab1_2.csproj", "{8B939235-C6FB-4657-9124-D412B1916C26}"
 EndProject
