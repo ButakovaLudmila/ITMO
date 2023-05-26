@@ -163,5 +163,24 @@ namespace ITMO_Group12405_WindowsForms_Lab2.Lab2_9
         {
 
         }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Magazine m = new Magazine(Volume, Number, TitleM, YearM, invNumber, taken);
+
+            if (ReturnTime)
+                b.ReturnSrok();
+            b.PriceBook(PeriodUse);
+            its.Add(b);
+            Author = Title = PublishHouse = "";
+            Page = InvNumber = PeriodUse = 0;
+            Year = 2000;
+            Existence = ReturnTime = false;
+        }
     }
 }
