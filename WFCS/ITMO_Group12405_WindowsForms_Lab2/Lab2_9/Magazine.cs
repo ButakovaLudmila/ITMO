@@ -14,8 +14,7 @@ namespace ITMO_Group12405_WindowsForms_Lab2.Lab2_9
 
         public bool IfSubs { get; set; } // подписка на журнал
 
-        public Magazine(String volume, int number, String title, int year, long invNumber, bool taken)
-            : base(invNumber, taken)
+        public Magazine(String volume, int number, String title, int year, long invNumber, bool taken): base(invNumber, taken)
         {
             this.volume = volume;
             this.number = number;
@@ -35,7 +34,7 @@ namespace ITMO_Group12405_WindowsForms_Lab2.Lab2_9
 
         public void Subs()
         {
-            // действия при оформлении подписки на журнал
+            Console.WriteLine("Подписка на журнал \"{0}\": {1}.", title, IfSubs);
         }
 
 

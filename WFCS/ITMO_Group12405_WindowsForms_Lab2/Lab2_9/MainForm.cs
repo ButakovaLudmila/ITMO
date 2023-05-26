@@ -61,15 +61,25 @@ namespace ITMO_Group12405_WindowsForms_Lab2.Lab2_9
             get { return (int)numericUpDown3.Value; }
             set { numericUpDown3.Value = value; }
         }
-        public bool Existence // Наличие
+        public int InvNumberM // Инвентарный номер
         {
-            get { return checkBox1.Checked; }
-            set { checkBox1.Checked = value; }
+            get { return (int)numericUpDown7.Value; }
+            set { numericUpDown7.Value = value; }
         }
-        public bool SortInvNumber // Сортировка по инвентарному номеру
+        public bool Existence // Наличие
         {
             get { return checkBox2.Checked; }
             set { checkBox2.Checked = value; }
+        }
+        public bool ExistenceM // Наличие
+        {
+            get { return checkBox4.Checked; }
+            set { checkBox4.Checked = value; }
+        }
+        public bool SortInvNumber // Сортировка по инвентарному номеру
+        {
+            get { return checkBox1.Checked; }
+            set { checkBox1.Checked = value; }
         }
         public bool ReturnTime // Возвращение в срок
         {
@@ -125,8 +135,7 @@ namespace ITMO_Group12405_WindowsForms_Lab2.Lab2_9
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Book b = new Book(Author, Title, PublishHouse,
-            Page, Year, InvNumber, Existence);
+            Book b = new Book(Author, Title, PublishHouse, Page, Year, InvNumber, Existence);
 
             if (ReturnTime)
                 b.ReturnSrok();
@@ -171,16 +180,13 @@ namespace ITMO_Group12405_WindowsForms_Lab2.Lab2_9
 
         private void button3_Click(object sender, EventArgs e)
         {
-            Magazine m = new Magazine(Volume, Number, TitleM, YearM, invNumber, taken);
+            Magazine m = new Magazine(Volume, Number, TitleM, YearM, InvNumberM, ExistenceM);
 
-            if (ReturnTime)
-                b.ReturnSrok();
-            b.PriceBook(PeriodUse);
-            its.Add(b);
-            Author = Title = PublishHouse = "";
-            Page = InvNumber = PeriodUse = 0;
-            Year = 2000;
-            Existence = ReturnTime = false;
+            its.Add(m);
+            //Author = Title = PublishHouse = "";
+            //Page = InvNumber = PeriodUse = 0;
+            //Year = 2000;
+            //Existence = ReturnTime = false;
         }
     }
 }
