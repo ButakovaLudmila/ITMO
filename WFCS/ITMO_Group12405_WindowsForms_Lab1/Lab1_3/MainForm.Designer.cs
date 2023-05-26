@@ -60,5 +60,6 @@
 
         protected System.Windows.Forms.Button Close;
     }
+
 }
 

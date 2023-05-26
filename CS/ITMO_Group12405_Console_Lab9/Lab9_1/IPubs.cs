@@ -2,13 +2,13 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 
-namespace ITMO_Group12405_WindowsForms_Lab2.Lab2_9
+namespace ITMO_Group12405_Console_Lab9.Lab9_1
 {
     interface IPubs
     {
-        
-       void Subs ();
+        void Subs();
         bool IfSubs { get; set; }
     }
 }

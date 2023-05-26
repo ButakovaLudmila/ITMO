@@ -30,8 +30,8 @@
         {
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.Books = new System.Windows.Forms.TabPage();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.checkBox2 = new System.Windows.Forms.CheckBox();
             this.button1 = new System.Windows.Forms.Button();
             this.numericUpDown4 = new System.Windows.Forms.NumericUpDown();
             this.numericUpDown3 = new System.Windows.Forms.NumericUpDown();
@@ -48,6 +48,9 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.Magazins = new System.Windows.Forms.TabPage();
+            this.button3 = new System.Windows.Forms.Button();
+            this.numericUpDown7 = new System.Windows.Forms.NumericUpDown();
+            this.label12 = new System.Windows.Forms.Label();
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
             this.numericUpDown5 = new System.Windows.Forms.NumericUpDown();
@@ -59,9 +62,7 @@
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.checkBox3 = new System.Windows.Forms.CheckBox();
             this.button2 = new System.Windows.Forms.Button();
-            this.numericUpDown7 = new System.Windows.Forms.NumericUpDown();
-            this.label12 = new System.Windows.Forms.Label();
-            this.button3 = new System.Windows.Forms.Button();
+            this.checkBox4 = new System.Windows.Forms.CheckBox();
             this.tabControl1.SuspendLayout();
             this.Books.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown4)).BeginInit();
@@ -69,9 +70,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             this.Magazins.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown7)).BeginInit();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -89,8 +90,8 @@
             // Books
             // 
             this.Books.BackColor = System.Drawing.SystemColors.Control;
-            this.Books.Controls.Add(this.checkBox2);
             this.Books.Controls.Add(this.checkBox1);
+            this.Books.Controls.Add(this.checkBox2);
             this.Books.Controls.Add(this.button1);
             this.Books.Controls.Add(this.numericUpDown4);
             this.Books.Controls.Add(this.numericUpDown3);
@@ -113,27 +114,27 @@
             this.Books.TabIndex = 0;
             this.Books.Text = "Книги";
             // 
-            // checkBox2
-            // 
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.Location = new System.Drawing.Point(2, 281);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(102, 24);
-            this.checkBox2.TabIndex = 19;
-            this.checkBox2.Text = "Наличие";
-            this.checkBox2.UseVisualStyleBackColor = true;
-            this.checkBox2.CheckedChanged += new System.EventHandler(this.checkBox2_CheckedChanged);
-            // 
             // checkBox1
             // 
             this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(106, 281);
+            this.checkBox1.Location = new System.Drawing.Point(2, 281);
             this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(181, 24);
-            this.checkBox1.TabIndex = 18;
-            this.checkBox1.Text = "Возвращает в срок";
+            this.checkBox1.Size = new System.Drawing.Size(102, 24);
+            this.checkBox1.TabIndex = 19;
+            this.checkBox1.Text = "Наличие";
             this.checkBox1.UseVisualStyleBackColor = true;
-            this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
+            this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox2_CheckedChanged);
+            // 
+            // checkBox2
+            // 
+            this.checkBox2.AutoSize = true;
+            this.checkBox2.Location = new System.Drawing.Point(106, 281);
+            this.checkBox2.Name = "checkBox2";
+            this.checkBox2.Size = new System.Drawing.Size(181, 24);
+            this.checkBox2.TabIndex = 18;
+            this.checkBox2.Text = "Возвращает в срок";
+            this.checkBox2.UseVisualStyleBackColor = true;
+            this.checkBox2.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
             // 
             // button1
             // 
@@ -288,6 +289,7 @@
             // Magazins
             // 
             this.Magazins.BackColor = System.Drawing.SystemColors.Control;
+            this.Magazins.Controls.Add(this.checkBox4);
             this.Magazins.Controls.Add(this.button3);
             this.Magazins.Controls.Add(this.numericUpDown7);
             this.Magazins.Controls.Add(this.label12);
@@ -305,6 +307,32 @@
             this.Magazins.Size = new System.Drawing.Size(288, 361);
             this.Magazins.TabIndex = 1;
             this.Magazins.Text = "Журналы";
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(33, 299);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(207, 42);
+            this.button3.TabIndex = 27;
+            this.button3.Text = "Подписка";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // numericUpDown7
+            // 
+            this.numericUpDown7.Location = new System.Drawing.Point(128, 179);
+            this.numericUpDown7.Name = "numericUpDown7";
+            this.numericUpDown7.Size = new System.Drawing.Size(153, 26);
+            this.numericUpDown7.TabIndex = 26;
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(7, 179);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(112, 20);
+            this.label12.TabIndex = 25;
+            this.label12.Text = "Инвентарный";
             // 
             // textBox5
             // 
@@ -425,31 +453,15 @@
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
-            // numericUpDown7
+            // checkBox4
             // 
-            this.numericUpDown7.Location = new System.Drawing.Point(128, 179);
-            this.numericUpDown7.Name = "numericUpDown7";
-            this.numericUpDown7.Size = new System.Drawing.Size(153, 26);
-            this.numericUpDown7.TabIndex = 26;
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(7, 179);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(112, 20);
-            this.label12.TabIndex = 25;
-            this.label12.Text = "Инвентарный";
-            // 
-            // button3
-            // 
-            this.button3.Location = new System.Drawing.Point(33, 299);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(207, 42);
-            this.button3.TabIndex = 27;
-            this.button3.Text = "Подписка";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.checkBox4.AutoSize = true;
+            this.checkBox4.Location = new System.Drawing.Point(8, 211);
+            this.checkBox4.Name = "checkBox4";
+            this.checkBox4.Size = new System.Drawing.Size(102, 24);
+            this.checkBox4.TabIndex = 28;
+            this.checkBox4.Text = "Наличие";
+            this.checkBox4.UseVisualStyleBackColor = true;
             // 
             // Biblioteka
             // 
@@ -472,9 +484,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
             this.Magazins.ResumeLayout(false);
             this.Magazins.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown7)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -495,8 +507,8 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.CheckBox checkBox2;
         private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.CheckBox checkBox2;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.NumericUpDown numericUpDown4;
         private System.Windows.Forms.NumericUpDown numericUpDown3;
@@ -515,6 +527,7 @@
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.NumericUpDown numericUpDown7;
         private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.CheckBox checkBox4;
     }
 }
 
