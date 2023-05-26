@@ -10,6 +10,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WFCS", "WFCS", "{40356ABD-D
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ITMO_Group12405_WindowsForms_Lab1", "ITMO_Group12405_WindowsForms_Lab1", "{E588AEA0-1A70-449D-8BFB-E0F53B2A4934}"
 	ProjectSection(SolutionItems) = preProject
+		WFCS\ITMO_Group12405_WindowsForms_Lab1\ITMO_Group12405_WindowsForms_Lab1.sln = WFCS\ITMO_Group12405_WindowsForms_Lab1\ITMO_Group12405_WindowsForms_Lab1.sln
 		TextFile3.txt = TextFile3.txt
 	EndProjectSection
 EndProject
