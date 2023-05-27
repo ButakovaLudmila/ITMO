@@ -48,6 +48,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.Magazins = new System.Windows.Forms.TabPage();
+            this.checkBox4 = new System.Windows.Forms.CheckBox();
             this.button3 = new System.Windows.Forms.Button();
             this.numericUpDown7 = new System.Windows.Forms.NumericUpDown();
             this.label12 = new System.Windows.Forms.Label();
@@ -62,7 +63,7 @@
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.checkBox3 = new System.Windows.Forms.CheckBox();
             this.button2 = new System.Windows.Forms.Button();
-            this.checkBox4 = new System.Windows.Forms.CheckBox();
+            this.checkBox5 = new System.Windows.Forms.CheckBox();
             this.tabControl1.SuspendLayout();
             this.Books.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown4)).BeginInit();
@@ -289,6 +290,7 @@
             // Magazins
             // 
             this.Magazins.BackColor = System.Drawing.SystemColors.Control;
+            this.Magazins.Controls.Add(this.checkBox5);
             this.Magazins.Controls.Add(this.checkBox4);
             this.Magazins.Controls.Add(this.button3);
             this.Magazins.Controls.Add(this.numericUpDown7);
@@ -307,6 +309,16 @@
             this.Magazins.Size = new System.Drawing.Size(288, 361);
             this.Magazins.TabIndex = 1;
             this.Magazins.Text = "Журналы";
+            // 
+            // checkBox4
+            // 
+            this.checkBox4.AutoSize = true;
+            this.checkBox4.Location = new System.Drawing.Point(8, 211);
+            this.checkBox4.Name = "checkBox4";
+            this.checkBox4.Size = new System.Drawing.Size(102, 24);
+            this.checkBox4.TabIndex = 28;
+            this.checkBox4.Text = "Наличие";
+            this.checkBox4.UseVisualStyleBackColor = true;
             // 
             // button3
             // 
@@ -453,15 +465,15 @@
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
-            // checkBox4
+            // checkBox5
             // 
-            this.checkBox4.AutoSize = true;
-            this.checkBox4.Location = new System.Drawing.Point(8, 211);
-            this.checkBox4.Name = "checkBox4";
-            this.checkBox4.Size = new System.Drawing.Size(102, 24);
-            this.checkBox4.TabIndex = 28;
-            this.checkBox4.Text = "Наличие";
-            this.checkBox4.UseVisualStyleBackColor = true;
+            this.checkBox5.AutoSize = true;
+            this.checkBox5.Location = new System.Drawing.Point(128, 211);
+            this.checkBox5.Name = "checkBox5";
+            this.checkBox5.Size = new System.Drawing.Size(110, 24);
+            this.checkBox5.TabIndex = 29;
+            this.checkBox5.Text = "Подписка";
+            this.checkBox5.UseVisualStyleBackColor = true;
             // 
             // Biblioteka
             // 
@@ -528,6 +540,7 @@
         private System.Windows.Forms.NumericUpDown numericUpDown7;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.CheckBox checkBox4;
+        private System.Windows.Forms.CheckBox checkBox5;
     }
 }
 
