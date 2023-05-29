@@ -68,10 +68,20 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab9_1", "CS\ITMO_Group12405_Console_Lab9\Lab9_1\Lab9_1.csproj", "{1BC1B5DD-21E2-49E2-90BE-DA11C14BB9E4}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ITMO_Group12405_WPF_FinLab", "ITMO_Group12405_WPF_FinLab", "{EAECF958-93F4-4BAE-9CED-F58707FE74DD}"
+	ProjectSection(SolutionItems) = preProject
+		WPFCS\ITMO_Group12405_WPF_FinLab\ITMO_Group12405_WPF_FinLab.sln = WPFCS\ITMO_Group12405_WPF_FinLab\ITMO_Group12405_WPF_FinLab.sln
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator", "WPFCS\ITMO_Group12405_WPF_FinLab\Calculator\Calculator.csproj", "{BCD606AA-0D0C-4312-BC57-E79112B10E10}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsCalculator", "..\..\Labs\Calculator_ex\Calculator_starter_2\Calculator_starter_2\Starter_new\WindowsCalculator.csproj", "{A2FD2DF4-4FE9-491F-960B-4BFB55A6632F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ITMO_Group12405_WPF_Lab2", "ITMO_Group12405_WPF_Lab2", "{C50204EA-0D93-4037-A186-36E474F01144}"
+	ProjectSection(SolutionItems) = preProject
+		WPFCS\ITMO_Group12405_WPF_Lab2\ITMO_Group12405_WPF_Lab2.sln = WPFCS\ITMO_Group12405_WPF_Lab2\ITMO_Group12405_WPF_Lab2.sln
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab2_1", "WPFCS\ITMO_Group12405_WPF_Lab2\Lab2_1\Lab2_1.csproj", "{278D7B43-B8BA-4A0B-B0BA-B2281C2B3E09}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -167,6 +177,10 @@ Global
 		{A2FD2DF4-4FE9-491F-960B-4BFB55A6632F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A2FD2DF4-4FE9-491F-960B-4BFB55A6632F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A2FD2DF4-4FE9-491F-960B-4BFB55A6632F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{278D7B43-B8BA-4A0B-B0BA-B2281C2B3E09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{278D7B43-B8BA-4A0B-B0BA-B2281C2B3E09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{278D7B43-B8BA-4A0B-B0BA-B2281C2B3E09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{278D7B43-B8BA-4A0B-B0BA-B2281C2B3E09}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -199,6 +213,8 @@ Global
 		{EAECF958-93F4-4BAE-9CED-F58707FE74DD} = {0AF8A661-8E05-47DC-BB98-9D493B823232}
 		{BCD606AA-0D0C-4312-BC57-E79112B10E10} = {EAECF958-93F4-4BAE-9CED-F58707FE74DD}
 		{A2FD2DF4-4FE9-491F-960B-4BFB55A6632F} = {40356ABD-D37D-486A-A34C-F2D0C3379DD4}
+		{C50204EA-0D93-4037-A186-36E474F01144} = {0AF8A661-8E05-47DC-BB98-9D493B823232}
+		{278D7B43-B8BA-4A0B-B0BA-B2281C2B3E09} = {C50204EA-0D93-4037-A186-36E474F01144}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D4F3DD8B-7A46-4B4D-B92A-5A9AE1DAD4C3}
