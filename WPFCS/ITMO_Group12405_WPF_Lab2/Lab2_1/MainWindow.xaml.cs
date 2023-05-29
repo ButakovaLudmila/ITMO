@@ -24,5 +24,23 @@ namespace ITMO_Group12405_WPF_Lab2.Lab2_1
         {
             InitializeComponent();
         }
+
+        private void textBox1_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            MessageBox.Show("Event by textbox");
+            e.Handled = (bool)radBut1.IsChecked;
+        }
+
+        private void Grid_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            MessageBox.Show("Event by Grid");
+            e.Handled = (bool)radBut2.IsChecked;
+        }
+
+        private void Window_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            MessageBox.Show("Event by Window");
+            e.Handled = (bool)radBut3.IsChecked;
+        }
     }
 }
