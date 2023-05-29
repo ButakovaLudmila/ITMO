@@ -81,7 +81,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ITMO_Group12405_WPF_Lab2", 
 		WPFCS\ITMO_Group12405_WPF_Lab2\ITMO_Group12405_WPF_Lab2.sln = WPFCS\ITMO_Group12405_WPF_Lab2\ITMO_Group12405_WPF_Lab2.sln
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab2_1", "WPFCS\ITMO_Group12405_WPF_Lab2\Lab2_1\Lab2_1.csproj", "{278D7B43-B8BA-4A0B-B0BA-B2281C2B3E09}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfRoutedEvent_2_1", "WPFCS\ITMO_Group12405_WPF_Lab2\Lab2_1\WpfRoutedEvent_2_1.csproj", "{278D7B43-B8BA-4A0B-B0BA-B2281C2B3E09}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
