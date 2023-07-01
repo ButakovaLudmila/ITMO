@@ -85,6 +85,57 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfRoutedEvent_2_1", "WPFCS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfRoutedEvent_2_2", "WPFCS\ITMO_Group12405_WPF_Lab2\Lab2_2\WpfRoutedEvent_2_2.csproj", "{80C90562-4DB6-4F63-9952-87BBA1AA9600}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HTML", "HTML", "{196CC236-B183-4481-A607-B9AC598130CE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lab1", "Lab1", "{77F1C8B9-9AC2-4385-BA56-F16B0D816A67}"
+	ProjectSection(SolutionItems) = preProject
+		HTML\Lab1\ex1.html = HTML\Lab1\ex1.html
+		HTML\Lab1\ex2.html = HTML\Lab1\ex2.html
+		HTML\Lab1\ex3.html = HTML\Lab1\ex3.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lab2", "Lab2", "{0785031C-EE7C-47C9-876B-1FD53E740D08}"
+	ProjectSection(SolutionItems) = preProject
+		HTML\Lab2\classification.html = HTML\Lab2\classification.html
+		HTML\Lab2\code.html = HTML\Lab2\code.html
+		HTML\Lab2\findings.html = HTML\Lab2\findings.html
+		HTML\Lab2\index.html = HTML\Lab2\index.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lab3", "Lab3", "{128949E1-D106-443C-B3A4-8BA0743B7480}"
+	ProjectSection(SolutionItems) = preProject
+		HTML\Lab3\about_buttons.html = HTML\Lab3\about_buttons.html
+		HTML\Lab3\classification.html = HTML\Lab3\classification.html
+		HTML\Lab3\ex4.html = HTML\Lab3\ex4.html
+		HTML\Lab3\index.html = HTML\Lab3\index.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lab4", "Lab4", "{23C96567-F2E8-49D0-80DB-025D197F5C1E}"
+	ProjectSection(SolutionItems) = preProject
+		HTML\Lab4\ex5.html = HTML\Lab4\ex5.html
+		HTML\Lab4\table.html = HTML\Lab4\table.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lab5", "Lab5", "{2675A1B5-B323-4029-9AD6-C6E1B4CD6AFD}"
+	ProjectSection(SolutionItems) = preProject
+		HTML\Lab5\classification.html = HTML\Lab5\classification.html
+		HTML\Lab5\index.html = HTML\Lab5\index.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lab6", "Lab6", "{102C0B80-8F5B-4879-958D-8519FB8DD96F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lab7", "Lab7", "{A20043DC-71FE-47BD-8A24-8DA92D1277A7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "images", "images", "{5E6A3DEE-09FD-478C-9092-7FFA4BAE4E7C}"
+	ProjectSection(SolutionItems) = preProject
+		HTML\Lab1\images\Tulips.jpg = HTML\Lab1\images\Tulips.jpg
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "images", "images", "{45AE3B56-CAE7-4314-9D6A-50D3D9890E39}"
+	ProjectSection(SolutionItems) = preProject
+		HTML\Lab5\images\button.png = HTML\Lab5\images\button.png
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -222,6 +273,15 @@ Global
 		{C50204EA-0D93-4037-A186-36E474F01144} = {0AF8A661-8E05-47DC-BB98-9D493B823232}
 		{278D7B43-B8BA-4A0B-B0BA-B2281C2B3E09} = {C50204EA-0D93-4037-A186-36E474F01144}
 		{80C90562-4DB6-4F63-9952-87BBA1AA9600} = {C50204EA-0D93-4037-A186-36E474F01144}
+		{77F1C8B9-9AC2-4385-BA56-F16B0D816A67} = {196CC236-B183-4481-A607-B9AC598130CE}
+		{0785031C-EE7C-47C9-876B-1FD53E740D08} = {196CC236-B183-4481-A607-B9AC598130CE}
+		{128949E1-D106-443C-B3A4-8BA0743B7480} = {196CC236-B183-4481-A607-B9AC598130CE}
+		{23C96567-F2E8-49D0-80DB-025D197F5C1E} = {196CC236-B183-4481-A607-B9AC598130CE}
+		{2675A1B5-B323-4029-9AD6-C6E1B4CD6AFD} = {196CC236-B183-4481-A607-B9AC598130CE}
+		{102C0B80-8F5B-4879-958D-8519FB8DD96F} = {196CC236-B183-4481-A607-B9AC598130CE}
+		{A20043DC-71FE-47BD-8A24-8DA92D1277A7} = {196CC236-B183-4481-A607-B9AC598130CE}
+		{5E6A3DEE-09FD-478C-9092-7FFA4BAE4E7C} = {77F1C8B9-9AC2-4385-BA56-F16B0D816A67}
+		{45AE3B56-CAE7-4314-9D6A-50D3D9890E39} = {2675A1B5-B323-4029-9AD6-C6E1B4CD6AFD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D4F3DD8B-7A46-4B4D-B92A-5A9AE1DAD4C3}
