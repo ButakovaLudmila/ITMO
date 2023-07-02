@@ -125,8 +125,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lab5", "Lab5", "{2675A1B5-B
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lab6", "Lab6", "{102C0B80-8F5B-4879-958D-8519FB8DD96F}"
+	ProjectSection(SolutionItems) = preProject
+		HTML\Lab6\ex7.html = HTML\Lab6\ex7.html
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lab7", "Lab7", "{A20043DC-71FE-47BD-8A24-8DA92D1277A7}"
+	ProjectSection(SolutionItems) = preProject
+		HTML\Lab7\block_1.css = HTML\Lab7\block_1.css
+		HTML\Lab7\block_1.html = HTML\Lab7\block_1.html
+		HTML\Lab7\block_2.css = HTML\Lab7\block_2.css
+		HTML\Lab7\block_2.html = HTML\Lab7\block_2.html
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "images", "images", "{5E6A3DEE-09FD-478C-9092-7FFA4BAE4E7C}"
 	ProjectSection(SolutionItems) = preProject
@@ -142,6 +151,11 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "media", "media", "{E4E9E65D-D0B0-4CDA-AFA2-7F407450C89D}"
 	ProjectSection(SolutionItems) = preProject
 		HTML\Lab5\media\video.mp4 = HTML\Lab5\media\video.mp4
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "images", "images", "{0761F712-E85B-4F83-A5EC-55C6A30FCD86}"
+	ProjectSection(SolutionItems) = preProject
+		HTML\Lab6\images\enot.jpg = HTML\Lab6\images\enot.jpg
 	EndProjectSection
 EndProject
 Global
@@ -291,6 +305,7 @@ Global
 		{5E6A3DEE-09FD-478C-9092-7FFA4BAE4E7C} = {77F1C8B9-9AC2-4385-BA56-F16B0D816A67}
 		{45AE3B56-CAE7-4314-9D6A-50D3D9890E39} = {2675A1B5-B323-4029-9AD6-C6E1B4CD6AFD}
 		{E4E9E65D-D0B0-4CDA-AFA2-7F407450C89D} = {2675A1B5-B323-4029-9AD6-C6E1B4CD6AFD}
+		{0761F712-E85B-4F83-A5EC-55C6A30FCD86} = {102C0B80-8F5B-4879-958D-8519FB8DD96F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D4F3DD8B-7A46-4B4D-B92A-5A9AE1DAD4C3}
