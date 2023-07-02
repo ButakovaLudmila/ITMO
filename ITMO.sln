@@ -158,6 +158,64 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "images", "images", "{0761F7
 		HTML\Lab6\images\enot.jpg = HTML\Lab6\images\enot.jpg
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CSS", "CSS", "{26381EBE-F3F2-4DEC-895D-8967AEC0972D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lab1", "Lab1", "{476797D2-F6BA-4FDB-B62E-9A2EAF3A4BA1}"
+	ProjectSection(SolutionItems) = preProject
+		CSS\Lab1\classification.html = CSS\Lab1\classification.html
+		CSS\Lab1\index.html = CSS\Lab1\index.html
+		CSS\Lab1\style.css = CSS\Lab1\style.css
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lab2", "Lab2", "{2F7C1E42-DC6B-4B2D-AE14-47046D8E31EC}"
+	ProjectSection(SolutionItems) = preProject
+		CSS\Lab2\about_buttons.html = CSS\Lab2\about_buttons.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lab3", "Lab3", "{B157DE7C-4ADC-473F-9A1C-BB472841EB58}"
+	ProjectSection(SolutionItems) = preProject
+		CSS\Lab3\gallery.html = CSS\Lab3\gallery.html
+		CSS\Lab3\reset.css = CSS\Lab3\reset.css
+		CSS\Lab3\textFormat.html = CSS\Lab3\textFormat.html
+		CSS\Lab3\textFormat_1.html = CSS\Lab3\textFormat_1.html
+		CSS\Lab3\textFormat_2.html = CSS\Lab3\textFormat_2.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lab4", "Lab4", "{8B4602E8-D393-478D-A1AE-ED46AF851AD1}"
+	ProjectSection(SolutionItems) = preProject
+		CSS\Lab4\form.html = CSS\Lab4\form.html
+		CSS\Lab4\global.css = CSS\Lab4\global.css
+		CSS\Lab4\table.html = CSS\Lab4\table.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "images", "images", "{FC7BA948-7E03-4F91-82EA-6002D819E130}"
+	ProjectSection(SolutionItems) = preProject
+		CSS\Lab1\images\button_1.jpg = CSS\Lab1\images\button_1.jpg
+		CSS\Lab1\images\button_4.jpg = CSS\Lab1\images\button_4.jpg
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "images", "images", "{4F89899F-0768-405D-8D50-4D63E6F7D008}"
+	ProjectSection(SolutionItems) = preProject
+		CSS\Lab3\images\img_1.jpg = CSS\Lab3\images\img_1.jpg
+		CSS\Lab3\images\img_2.jpg = CSS\Lab3\images\img_2.jpg
+		CSS\Lab3\images\img_3.jpg = CSS\Lab3\images\img_3.jpg
+		CSS\Lab3\images\img_4.jpg = CSS\Lab3\images\img_4.jpg
+		CSS\Lab3\images\img_5.jpg = CSS\Lab3\images\img_5.jpg
+		CSS\Lab3\images\img_6.gif = CSS\Lab3\images\img_6.gif
+		CSS\Lab3\images\switok.png = CSS\Lab3\images\switok.png
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "css", "css", "{A8A31D65-880C-4ABC-9E81-2231D15D72E3}"
+	ProjectSection(SolutionItems) = preProject
+		CSS\Lab4\css\main.css = CSS\Lab4\css\main.css
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "images", "images", "{86E33047-6DDF-4507-B727-DFC14C0B3C2B}"
+	ProjectSection(SolutionItems) = preProject
+		CSS\Lab4\images\star.png = CSS\Lab4\images\star.png
+		CSS\Lab4\images\underline.png = CSS\Lab4\images\underline.png
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -306,6 +364,14 @@ Global
 		{45AE3B56-CAE7-4314-9D6A-50D3D9890E39} = {2675A1B5-B323-4029-9AD6-C6E1B4CD6AFD}
 		{E4E9E65D-D0B0-4CDA-AFA2-7F407450C89D} = {2675A1B5-B323-4029-9AD6-C6E1B4CD6AFD}
 		{0761F712-E85B-4F83-A5EC-55C6A30FCD86} = {102C0B80-8F5B-4879-958D-8519FB8DD96F}
+		{476797D2-F6BA-4FDB-B62E-9A2EAF3A4BA1} = {26381EBE-F3F2-4DEC-895D-8967AEC0972D}
+		{2F7C1E42-DC6B-4B2D-AE14-47046D8E31EC} = {26381EBE-F3F2-4DEC-895D-8967AEC0972D}
+		{B157DE7C-4ADC-473F-9A1C-BB472841EB58} = {26381EBE-F3F2-4DEC-895D-8967AEC0972D}
+		{8B4602E8-D393-478D-A1AE-ED46AF851AD1} = {26381EBE-F3F2-4DEC-895D-8967AEC0972D}
+		{FC7BA948-7E03-4F91-82EA-6002D819E130} = {476797D2-F6BA-4FDB-B62E-9A2EAF3A4BA1}
+		{4F89899F-0768-405D-8D50-4D63E6F7D008} = {B157DE7C-4ADC-473F-9A1C-BB472841EB58}
+		{A8A31D65-880C-4ABC-9E81-2231D15D72E3} = {8B4602E8-D393-478D-A1AE-ED46AF851AD1}
+		{86E33047-6DDF-4507-B727-DFC14C0B3C2B} = {8B4602E8-D393-478D-A1AE-ED46AF851AD1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D4F3DD8B-7A46-4B4D-B92A-5A9AE1DAD4C3}
