@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<xs:element name="library">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="book_catalog">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="book">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="authors">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="author" type="xs:string" />
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="title" type="xs:string" />
+                    <xs:element name="publishing" type="xs:string" />
+                    <xs:element name="annotation" type="xs:string" />
+                  </xs:sequence>
+                  <xs:attribute name="id" type="xs:string"" />
+                  <xs:attribute name="isbn" type="xs:string"" />
+                  <xs:attribute name="year" type="xs:unsignedShort" />
+                  <xs:attribute name="issue" type="xs:string" />
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="author_catalog">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="author_book">
+                <xs:complexType>
+                  <xs:simpleContent>
+                    <xs:extension base="xs:string">
+                      <xs:attribute name="idref" type="xs:string"" />
+                    </xs:extension>
+                  </xs:simpleContent>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
