@@ -1,0 +1,68 @@
+<?xml version = "1.0" encoding ="utf-8"?>
+<!DOCTYPE TimeTable SYSTEM "lessons_DTD.dtd">
+
+<resume>
+	<item>
+		<title>Введение в технология програмирования</title>
+		<teacher>Иванов Иван</teacher>
+		<begin>01.09.2023</begin>
+		<end>01.10.2023</end>
+		<timeslot>17:00</timeslot>
+		<days>пн, ср, пт</days>
+		<classroom>123</classroom>
+	</item>
+	<item>
+		<title>Основы программирования C#</title>
+		<teacher>Петров Петр</teacher>
+		<begin>02.10.2023</begin>
+		<end>02.11.2023</end>
+		<timeslot>18:30</timeslot>
+		<days>пн, ср, пт</days>
+		<classroom>234</classroom>
+	</item>
+	<item>
+		<title>Основы HTML</title>
+		<teacher>Сидоров Сидр</teacher>
+		<begin>03.11.2023</begin>
+		<end>03.12.2023</end>
+		<timeslot>17:30</timeslot>
+		<days>вт, чт</days>
+		<classroom>345</classroom>
+	</item>
+	<item>
+		<title>Основы JavaScript</title>
+		<teacher>Булгакова Валерия</teacher>
+		<begin>04.12.2023</begin>
+		<end>28.12.2023</end>
+		<timeslot>18:30</timeslot>
+		<days>пн, ср</days>
+		<classroom>345</classroom>
+	</item>
+	<item>
+		<title>Введение в базы данных</title>
+		<teacher>Устинов Геннадий</teacher>
+		<begin>15.01.2023</begin>
+		<end>15.02.2023</end>
+		<timeslot>17:00</timeslot>
+		<days>вт, ср, пт</days>
+		<classroom>456</classroom>
+	</item>
+	<item>
+		<title>Программирование на Python</title>
+		<teacher>Колмагорова Надежда</teacher>
+		<begin>16.02.2023</begin>
+		<end>16.03.2023</end>
+		<timeslot>18:30</timeslot>
+		<days>пн, вт, ср, пт</days>
+		<classroom>123</classroom>
+	</item>
+	<item>
+		<title>Программирование на C++</title>
+		<teacher>Подолянчук Иван</teacher>
+		<begin>17.03.2023</begin>
+		<end>17.04.2023</end>
+		<timeslot>18:00</timeslot>
+		<days>пн, ср, пт</days>
+		<classroom>345</classroom>
+	</item>
+</resume>

@@ -1,0 +1,47 @@
+<?xml version = "1.0" encoding ="utf-8"?>
+<resume>
+	<candidate id = "1">
+		<Name>Людмила</Name>
+		<LastName>Бутакова</LastName>
+		<PatronymicName>Владимировна</PatronymicName>
+		<Age>38</Age>
+		<WorkPlace>ООО "Атмосфера"</WorkPlace>
+		<Post>ИТ менеджер</Post>
+		<DateOfBirth>02.03.1985</DateOfBirth>
+		<Education>Высшее</Education>
+		<Address>СПб, ул. Вагнера д. 13 кв. 13</Address>
+		<Phone>123-45-67</Phone>
+		<FamilyStatus>замужем</FamilyStatus>
+		<DesiredSalary currency = "RUR">70 000</DesiredSalary>
+	</candidate>
+	
+	<candidate id = "2">
+		<Name>Петр</Name>
+		<LastName>Измайлов</LastName>
+		<PatronymicName>Иванович</PatronymicName>
+		<Age>22</Age>
+		<WorkPlace>ООО "Тройка"</WorkPlace>
+		<Post>экономист</Post>
+		<DateOfBirth>21.01.2001</DateOfBirth>
+		<Education>Высшее </Education>
+		<Address>СПб, ул. Моцарта д. 19 кв. 7</Address>
+		<Phone>987-65-54</Phone>
+		<FamilyStatus>женат</FamilyStatus>
+		<DesiredSalary currency = "RUR">50 000</DesiredSalary>
+	</candidate>
+	
+	<candidate id = "3">
+		<Name>Дмитрий</Name>
+		<LastName>Дудко</LastName>
+		<PatronymicName>Юрьевич</PatronymicName>
+		<Age>39</Age>	
+		<WorkPlace>ООО "ИнвестПроект"</WorkPlace>
+		<Post>менеджер по продажам</Post>
+		<DateOfBirth>05.12.1983</DateOfBirth>
+		<Education>Высшее</Education>
+		<Address>СПб, ул. Рубинштейна д. 6 кв. 2</Address>
+		<Phone>122-33-44</Phone>
+		<FamilyStatus>не женат</FamilyStatus>
+		<DesiredSalary currency = "RUR">35 000</DesiredSalary>
+	</candidate>
+</resume>

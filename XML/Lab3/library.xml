@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE  library SYSTEM "library_DTD.dtd">
+  <!-- библиотека -->
+  <library>
+    <!-- каталог книг -->
+    <book_catalog>
+	
+       <book  id="1"  isbn="978-5-4461-1937-0" year="2022" issue="translation">
+        <authors>
+        <author>Шредер К.</author>
+        </authors>
+        <title>Linux. Книга рецептов</title>
+        <publishing>Питер</publishing>
+        <annotation>Книга рецептов обучит начинающих пользователей и администраторов Linux управлять системой, используя как графические инструменты, так и командную строку. Независимо от того, используете ли вы Linux во встроенных или настольных системах, серверах, облачных или виртуальных средах, фундаментальные приемы одни. Цель книги - помочь вам быстро приступить к работе на простых и наглядных примерах. Карла Шредер приводит рецепты с объяснениями для конкретных ситуаций, а также ссылки для дополнительного изучения.</annotation>
+		<linux>Linux</linux>
+	   </book>
+	   
+       <book  id="2"  isbn="978-5-94387-271-6" year="2021" issue="original">
+        <authors>
+        <author>Кириченко А.</author>
+		<author>Никольский А.</author>
+		<author>Дубовик Е.</author>
+        </authors>
+        <title>Web на практике. CSS, HTML, JavaScript, MySQL, PHP для fullstack-разработчиков</title>
+        <publishing>Наука и техника</publishing>
+        <annotation>Разработка многофункционального сайта, как правило, требует нескольких разных специалистов, но в данной книге мы расскажем, как все сделать самому!  Fullstack-разработчик — это разработчик, который обладает знаниями всех технологий (полным стеком) для создания полноценных многофункциональных веб-сайтов.</annotation>
+		<internet>Internet</internet>
+	   </book>
+    </book_catalog>
+	
+    <!-- каталог авторов -->
+    <author_catalog>
+       <author_book  idref="1">Шредер К.</author_book>
+       <author_book  idref="2">Кириченко А.</author_book>
+       <author_book  idref="2">Никольский А.</author_book>
+	   <author_book  idref="2">Дубовик Е.</author_book>
+    </author_catalog>
+  </library>

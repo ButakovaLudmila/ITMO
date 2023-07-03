@@ -1,0 +1,66 @@
+<?xml version = "1.0" encoding ="utf-8"?>
+<myns:TimeTable xmlns:myns = "http://www.itmo.ru/xml/lessons">
+	<myns:item>
+		<myns:title>Введение в технология програмирования</myns:title>
+		<myns:teacher>Иванов Иван</myns:teacher>
+		<myns:begin>01.09.2023</myns:begin>
+		<myns:end>01.10.2023</myns:end>
+		<myns:timeslot>17:00</myns:timeslot>
+		<myns:days>пн, ср, пт</myns:days>
+		<myns:classroom>123</myns:classroom>
+	</myns:item>
+	<myns:item>
+		<myns:title>Основы программирования C#</myns:title>
+		<myns:teacher>Петров Петр</myns:teacher>
+		<myns:begin>02.10.2023</myns:begin>
+		<myns:end>02.11.2023</myns:end>
+		<myns:timeslot>18:30</myns:timeslot>
+		<myns:days>пн, ср, пт</myns:days>
+		<myns:classroom>234</myns:classroom>
+	</myns:item>
+	<myns:item>
+		<myns:title>Основы HTML</myns:title>
+		<myns:teacher>Сидоров Сидр</myns:teacher>
+		<myns:begin>03.11.2023</myns:begin>
+		<myns:end>03.12.2023</myns:end>
+		<myns:timeslot>17:30</myns:timeslot>
+		<myns:days>вт, чт</myns:days>
+		<myns:classroom>345</myns:classroom>
+	</myns:item>
+	<myns:item>
+		<myns:title>Основы JavaScript</myns:title>
+		<myns:teacher>Булгакова Валерия</myns:teacher>
+		<myns:begin>04.12.2023</myns:begin>
+		<myns:end>28.12.2023</myns:end>
+		<myns:timeslot>18:30</myns:timeslot>
+		<myns:days>пн, ср</myns:days>
+		<myns:classroom>345</myns:classroom>
+	</myns:item>
+	<myns:item>
+		<myns:title>Введение в базы данных</myns:title>
+		<myns:teacher>Устинов Геннадий</myns:teacher>
+		<myns:begin>15.01.2023</myns:begin>
+		<myns:end>15.02.2023</myns:end>
+		<myns:timeslot>17:00</myns:timeslot>
+		<myns:days>вт, ср, пт</myns:days>
+		<myns:classroom>456</myns:classroom>
+	</myns:item>
+	<myns:item>
+		<myns:title>Программирование на Python</myns:title>
+		<myns:teacher>Колмагорова Надежда</myns:teacher>
+		<myns:begin>16.02.2023</myns:begin>
+		<myns:end>16.03.2023</myns:end>
+		<myns:timeslot>18:30</myns:timeslot>
+		<myns:days>пн, вт, ср, пт</myns:days>
+		<myns:classroom>123</myns:classroom>
+	</myns:item>
+	<myns:item>
+		<myns:title>Программирование на C++</myns:title>
+		<myns:teacher>Подолянчук Иван</myns:teacher>
+		<myns:begin>17.03.2023</myns:begin>
+		<myns:end>17.04.2023</myns:end>
+		<myns:timeslot>18:00</myns:timeslot>
+		<myns:days>пн, ср, пт</myns:days>
+		<myns:classroom>345</myns:classroom>
+	</myns:item>
+</myns:TimeTable>
