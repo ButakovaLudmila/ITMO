@@ -23,7 +23,7 @@
                   </xs:sequence>
                   <xs:attribute name="id" type="xs:string"" />
                   <xs:attribute name="isbn" type="xs:string"" />
-                  <xs:attribute name="year" type="xs:unsignedShort" />
+                  <xs:attribute name="year" type="xs:date" />
                   <xs:attribute name="issue" type="xs:string" />
                 </xs:complexType>
               </xs:element>
