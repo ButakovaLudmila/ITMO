@@ -8,6 +8,9 @@
 <!ELEMENT publishing (#PCDATA)>
 <!ELEMENT annotation (#PCDATA)>
 
+<!ENTITY linux "Linux">
+<!ENTITY internet "Internet">
+
 <!ELEMENT author_catalog (author_book*)>
 <!ELEMENT author_book (#PCDATA)>
 
@@ -19,5 +22,3 @@
 
 <!ATTLIST author_book  idref IDREF #REQUIRED>
 
-<!ENTITY linux "Linux">
-<!ENTITY internet "Internet">
