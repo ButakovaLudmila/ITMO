@@ -21,9 +21,9 @@
                     <xs:element name="publishing" type="xs:string" />
                     <xs:element name="annotation" type="xs:string" />
                   </xs:sequence>
-                  <xs:attribute name="id" type="xs:string"" />
-                  <xs:attribute name="isbn" type="xs:string"" />
-                  <xs:attribute name="year" type="xs:date" />
+                  <xs:attribute name="id" type="xs:string" />
+                  <xs:attribute name="isbn" type="xs:string" />
+                  <xs:attribute name="year" type="xs:string" />
                   <xs:attribute name="issue" type="xs:string" />
                 </xs:complexType>
               </xs:element>
@@ -37,7 +37,7 @@
                 <xs:complexType>
                   <xs:simpleContent>
                     <xs:extension base="xs:string">
-                      <xs:attribute name="idref" type="xs:string"" />
+                      <xs:attribute name="idref" type="xs:string" />
                     </xs:extension>
                   </xs:simpleContent>
                 </xs:complexType>
