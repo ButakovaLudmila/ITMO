@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{7ED7AF8B-894C-406C-BED0-B72269E3168D}</ProjectGuid>
+    <ProjectGuid>{E2EF70C8-2DAC-4A1D-A66C-4D596558BE09}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>DBConnection</RootNamespace>
-    <AssemblyName>DBConnection</AssemblyName>
+    <RootNamespace>DBCommand</RootNamespace>
+    <AssemblyName>DBCommand</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -34,7 +34,6 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
-    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
