@@ -1,0 +1,60 @@
+﻿@page
+@model Final.Pages.Values.CreateModel
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Value</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Value.StudentId" class="control-label"></label>
+                <input asp-for="Value.StudentId" class="form-control" />
+                <span asp-validation-for="Value.StudentId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Value.ThemeId" class="control-label"></label>
+                <input asp-for="Value.ThemeId" class="form-control" />
+                <span asp-validation-for="Value.ThemeId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Value.Mark" class="control-label"></label>
+                <input asp-for="Value.Mark" class="form-control" />
+                <span asp-validation-for="Value.Mark" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <select class="list-group list-group-available-items overflow-auto">
+                    @foreach (var listGroupOption in Model.Student)
+                    {
+                        <option value="@listGroupOption" class="list-group-item">
+                            @listGroupOption
+                        </option>
+                    }
+                </select>
+            </div>
+
+           
+
+
+
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
